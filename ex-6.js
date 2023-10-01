@@ -1,7 +1,11 @@
+// Exercise #6 : Favorite Books
+
 let favoriteBooks = [];
 
 function addFavoriteBook(bookName) {
-  // Start coding here !
+  if (bookName.includes("Beauty")) {
+    favoriteBooks.push(bookName);
+}
 }
 
 // Example case
